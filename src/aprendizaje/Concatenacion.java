@@ -7,5 +7,9 @@ public class Concatenacion {
         String nombreCompleto = nombre + " " + apellido;
 
         System.out.println("Nombre completo: " + nombreCompleto);
+
+        int edad = 24;
+        String mensajeCompleto = nombre + " " + apellido + " con " + edad + " años de edad";
+        System.out.println(mensajeCompleto);
     }
 }
