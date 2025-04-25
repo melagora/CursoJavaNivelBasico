@@ -37,5 +37,7 @@ public class EstructuraCondicional_IFCompleja {
             System.out.println("Eres adulto mayor.");
 
         }
+
+        scanner.close();
     }
 }
