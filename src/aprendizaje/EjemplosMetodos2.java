@@ -7,7 +7,13 @@ public class EjemplosMetodos2 {
         System.err.println(cTexto2);
     }
 
+    static int Sumar(int Valor1, int Valor2) {
+        return Valor1 + Valor2;
+    }
+
     public static void main(String[] args) {
-        Mensaje("Hola Mundo desde un método no estático", "Este es un ejemplo de un método no estático en Java.");
+        // Mensaje("Hola Mundo desde un método no estático", "Este es un ejemplo de un
+        // método no estático en Java.");
+        System.out.println("La suma de los valores es: " + Sumar(45, 5));
     }
 }
