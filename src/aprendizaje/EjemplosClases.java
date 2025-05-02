@@ -4,6 +4,10 @@ class Persona {
     String nombre;
     int edad;
 
+    static void saludar(String nombre) {
+        System.out.println("Hola, " + nombre + ", es una persona.");
+    }
+
 }
 
 public class EjemplosClases {
@@ -15,5 +19,6 @@ public class EjemplosClases {
 
         System.out.println("Nombre: " + persona1.nombre); // Imprimir el valor del atributo nombre
         System.out.println("Edad: " + persona1.edad); // Imprimir el valor del atributo edad
+        Persona.saludar(persona1.nombre); // Llamar al método estático saludar de la clase Persona
     }
 }
